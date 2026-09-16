@@ -1,0 +1,72 @@
+{
+  "name": "ptape-admin",
+  "version": "2.0.2",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "boost": "next dev"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/list": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@react-jvectormap/core": "^1.0.4",
+    "@react-jvectormap/world": "^1.1.2",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/postcss": "^4.0.9",
+    "@tanstack/react-query": "^5.90.16",
+    "apexcharts": "^4.3.0",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.10.0",
+    "flatpickr": "^4.6.13",
+    "lucide-react": "^0.525.0",
+    "next": "15.2.8",
+    "react": "^19.0.0",
+    "react-apexcharts": "^1.7.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^19.2.3",
+    "react-dropzone": "^14.3.5",
+    "react-hook-form": "^7.60.0",
+    "react-intersection-observer": "^10.0.0",
+    "react-select": "^5.10.2",
+    "sweetalert2": "^11.22.2",
+    "swiper": "^11.2.0",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "@types/react-dom": "^19",
+    "@types/react-transition-group": "^4.4.12",
+    "eslint": "^9",
+    "eslint-config-next": "^16.1.1",
+    "postcss": "^8",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@react-jvectormap/core": {
+      "react": "^16.8.0 || ^17 || ^18 || ^19",
+      "react-dom": "^16.8.0 || ^17 || ^18 || ^19"
+    },
+    "@react-jvectormap/world": {
+      "react": "^16.8.0 || ^17 || ^18 || ^19",
+      "react-dom": "^16.8.0 || ^17 || ^18 || ^19"
+    }
+  },
+  "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b"
+}
